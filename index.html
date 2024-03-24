@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>网站特色</title>
 </head>
+<!--密码加密--><SCRIPT language=JavaScript> 
+ 
+    function password() { 
+     
+    var testV = 1; 
+     
+    var pass1 = prompt('请输入密码:',''); 
+     
+    while (testV < 3) { 
+     
+    if (!pass1) 
+     
+    history.go(-1); 
+     
+    if (pass1 == "114514") { 
+     
+    alert('密码正确!'); 
+     
+    break; 
+     
+    } 
+     
+    testV+=-1; 
+     
+    var pass1 = prompt('密码错误!请重新输入:'); 
+     
+    } 
+     
+    if (pass1!="password" & testV ==3) 
+     
+    history.go(-1); 
+     
+    return " "; 
+     
+    } 
+     
+    document.write(password()); 
+     
+    </SCRIPT>
 <body>
 <p align="center"><font color="red">本网站只供学习，如有冒犯会立刻删除</font></p>
 <ul align="center"> <!--第一行-->   
