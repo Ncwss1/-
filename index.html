@@ -79,5 +79,17 @@
         background-image: url('https://www.freeimg.cn/i/2024/03/24/65ffbac0e2b41.jpg')
     }
 </style>
+<Script Language=javascript>//禁用右键
+ 
+    function Click(){
+    alert('版权所有，请尊重！');
+     
+    window.event.returnValue=false;
+     
+    }
+     
+    document.oncontextmenu=Click;
+     
+    </Script>
 </body>
 </html>
